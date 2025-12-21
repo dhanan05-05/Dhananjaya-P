@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MindMap Generator AI</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Mermaid -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: false });
+    </script>
+</head>
+<body>
+
+    <h1>🧠 MindMap Generator AI</h1>
+
+    <textarea id="topic" placeholder="Enter a topic..."></textarea>
+    <br>
+    <button onclick="generateMindMap()">Generate Mind Map</button>
+
+    <div id="mindmap" class="mermaid"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
